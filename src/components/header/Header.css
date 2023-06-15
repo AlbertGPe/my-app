@@ -1,0 +1,23 @@
+.header-ul {
+  list-style-type: none;
+}
+
+@media (max-width: 390px) {
+
+  .logo {
+    display: none;
+  }
+
+  .header-ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .header-ul li {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+}
