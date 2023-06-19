@@ -1,0 +1,14 @@
+.projects-page img{
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid rgb(138, 126, 16);
+  padding-left: 10px;
+  padding-right: 10px;
+}

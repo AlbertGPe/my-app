@@ -3,6 +3,11 @@
 }
 
 @media (max-width: 390px) {
+  .header {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
   .logo {
     display: none;
@@ -12,12 +17,14 @@
     display: flex;
     justify-content: space-around;
     padding: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
   }
 
-  .header-ul li {
+  .header-li {
     text-transform: uppercase;
+    text-decoration: none;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
   }
 }

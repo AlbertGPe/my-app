@@ -2,10 +2,11 @@
 
 @media (max-width: 390px) {
   body {
-  height: 844px;
+  height: 100%;
   background-image: url('./images/elegant-black-background-3194.jpg');
   background-repeat: no-repeat;
   background-position: 20%;
   background-size: cover;
+  color: white;
   }
 }
