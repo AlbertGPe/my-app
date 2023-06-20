@@ -1,12 +1,29 @@
 import React from 'react'
 import "./Home.css"
+
 import logo from '../../images/logo-no-bckgorund.png'
+import html from '../../images/html.png'
+import css from '../../images/css.png'
+import express from '../../images/express.png'
+import js from '../../images/js.png'
+import mongo from '../../images/mongo.png'
+import node from '../../images/node.png'
+import react from '../../images/react.png'
 
 function Home() {
   return (
-    <div className='text-center pt-5'>
+    <div className='text-center pt-5 background-home'>
       <img src={logo} alt="logo" />
-      <p style={{color: 'white'}}>FULL STACK DEVELOPMENT</p>
+      <p className='full-stack'>FULL STACK DEVELOPER</p>
+      <div className='skills'>
+        <img src={react} alt="react" />
+        <img src={node} alt="node" />
+        <img src={mongo} alt="mongo" />
+        <img src={express} alt="express" />
+        <img src={js} alt="js" />
+        <img src={html} alt="html" />
+        <img src={css} alt="css" />
+      </div>
     </div>
   )
 }
