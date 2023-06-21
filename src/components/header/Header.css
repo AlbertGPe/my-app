@@ -2,6 +2,35 @@
   list-style-type: none;
 }
 
+@media (min-width: 391px) and (max-width: 720px) {
+  .logo {
+    display: none;
+  }
+
+  .header-ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+  }
+
+  .header-li{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+
+  .active {
+    color: rgb(175, 160, 19);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+}
+
 @media (max-width: 390px) {
   .header {
     padding-top: 2rem;
@@ -21,10 +50,17 @@
     border-bottom: 1px solid white;
   }
 
-  .header-li {
+  .header-li{
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+    font-size: 17px;
+  }
+
+  .active {
+    color: rgb(175, 160, 19);
+    text-transform: uppercase;
+    text-decoration: none;
     font-size: 17px;
   }
 }

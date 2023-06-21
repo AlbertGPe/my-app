@@ -1,4 +1,23 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  min-height: 100vh;
+  background-image: url('./images/elegant-black-background-3194.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (min-width: 391px) and (max-width: 720px) {
+  html {
+    width: 100%;
+  }
+}
 
 @media (max-width: 390px) {
   body {

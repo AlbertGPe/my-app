@@ -10,7 +10,7 @@ function Projects() {
     <div className='projects-page px-3'>
       <div className='mt-4'>
         <div style={{textAlign:'center'}}>
-          <Link to={'https://github.com/AlbertGPe/dusty-war'} className='title'>DUSTY WAR</Link>
+          <Link to={'https://github.com/AlbertGPe/dusty-war'} target='_blank' className='title'>DUSTY WAR</Link>
         </div>
         <div>
           <img src={dustyWar} alt="dustyWar" />
@@ -21,7 +21,7 @@ function Projects() {
       
       <div className='mt-4'>
         <div style={{textAlign:'center'}}>
-          <Link to={'https://github.com/music-contact/music-contact'} className='title'>MUSIC CONTACT</Link>
+          <Link to={'https://github.com/music-contact/music-contact'} target='_blank' className='title'>MUSIC CONTACT</Link>
         </div>
         <div>
           <img src={musicContact} alt="musicContact" />
@@ -33,7 +33,7 @@ function Projects() {
       
       <div className='mt-4'>
         <div style={{textAlign:'center'}}>
-          <Link to={'https://github.com/AlbertGPe/sole-squad'} className='title'>SOLE SQUAD</Link>
+          <Link to={'https://github.com/AlbertGPe/sole-squad'} target='_blank' className='title'>SOLE SQUAD</Link>
         </div>
         <div>
           <img src={soleSquad} alt="soleSquad" />
