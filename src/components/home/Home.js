@@ -13,7 +13,7 @@ import react from '../../images/react.png'
 function Home() {
   return (
     <div className='text-center pt-5 background-home'>
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" className='logo'/>
       <p className='full-stack'>FULL STACK DEVELOPER</p>
       <div className='skills'>
         <img src={react} alt="react" />

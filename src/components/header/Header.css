@@ -2,9 +2,52 @@
   list-style-type: none;
 }
 
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 120px;
+  margin-left: 2rem;
+}
+
+.header-ul {
+  display: flex;
+  margin-top: 1.2rem;
+  padding-right: 2rem;
+}
+
+.header-li{
+  margin-left: 5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.header-li:hover {
+  color: rgb(175, 160, 19);
+}
+
+.active {
+  margin-left: 5rem;
+  color: rgb(175, 160, 19);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 @media (min-width: 391px) and (max-width: 720px) {
   .logo {
     display: none;
+  }
+
+  .header {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .header-ul {

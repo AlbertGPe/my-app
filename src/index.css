@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 
+
 body {
   min-height: 100vh;
   background-image: url('./images/elegant-black-background-3194.jpg');
   background-repeat: no-repeat;
+  background-position: 20%;
   background-size: cover;
   color: white;
   font-family: 'Courier New', Courier, monospace;
@@ -16,18 +18,13 @@ body {
 @media (min-width: 391px) and (max-width: 720px) {
   html {
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media (max-width: 390px) {
   body {
-  height: 100%;
-  background-image: url('./images/elegant-black-background-3194.jpg');
-  background-repeat: no-repeat;
-  background-position: 20%;
-  background-size: cover;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
   padding-left: 10px;
   padding-right: 10px;
   }

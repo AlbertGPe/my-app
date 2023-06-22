@@ -1,8 +1,36 @@
+.contact-page {
+  margin-top: 8rem;
+  padding-left: 500px;
+  padding-right: 500px;
+}
 
+.contact-page img {
+  width: 100px;
+}
+
+.contact-page img:hover {
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+@media (min-width: 391px) and (max-width: 720px) {
+  .contact-page {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact-page img {
+    width: 60px;
+  }
+}
 
 @media (max-width: 390px) {
   .contact-page {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .contact-page img {
+    width: 60px;
   }
 }

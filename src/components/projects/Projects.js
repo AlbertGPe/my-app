@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Projects() {
   return (
     <div className='projects-page px-3'>
-      <div className='mt-4'>
+      <div className='mt-4 project'>
         <div style={{textAlign:'center'}}>
           <Link to={'https://github.com/AlbertGPe/dusty-war'} target='_blank' className='title'>DUSTY WAR</Link>
         </div>
@@ -19,7 +19,7 @@ function Projects() {
         <p>Technologies used: Javascript, Canvas, HTML, CSS, Bootstrap</p>
       </div>
       
-      <div className='mt-4'>
+      <div className='mt-4 project'>
         <div style={{textAlign:'center'}}>
           <Link to={'https://github.com/music-contact/music-contact'} target='_blank' className='title'>MUSIC CONTACT</Link>
         </div>
@@ -31,7 +31,7 @@ function Projects() {
         <p>Technologies used: NodeJS, ExpressJS, MongoDB, Mongoose, Handlebars, HTML, CSS, Bootstrap</p>
       </div>
       
-      <div className='mt-4'>
+      <div className='mt-4 project'>
         <div style={{textAlign:'center'}}>
           <Link to={'https://github.com/AlbertGPe/sole-squad'} target='_blank' className='title'>SOLE SQUAD</Link>
         </div>
