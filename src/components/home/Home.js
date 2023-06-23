@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.css"
+import 'animate.css'
 
 import logo from '../../images/logo-no-bckgorund.png'
 import html from '../../images/html.png'
@@ -13,9 +14,9 @@ import react from '../../images/react.png'
 function Home() {
   return (
     <div className='text-center pt-5 background-home'>
-      <img src={logo} alt="logo" className='logo'/>
-      <p className='full-stack'>FULL STACK DEVELOPER</p>
-      <div className='skills'>
+      <img src={logo} alt="logo" className='logo animate__animated animate__zoomInDown'/>
+      <p className='full-stack animate__animated animate__zoomInDown'>FULL STACK DEVELOPER</p>
+      <div className='skills animate__animated animate__fadeInDown'>
         <img src={react} alt="react" />
         <img src={node} alt="node" />
         <img src={mongo} alt="mongo" />

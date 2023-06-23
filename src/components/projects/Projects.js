@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 
 function Projects() {
   return (
-    <div className='projects-page px-3'>
+    <div className='projects-page px-3 animate__animated animate__fadeIn'>
       <div className='mt-4 project'>
-        <div style={{textAlign:'center'}}>
+        <div style={{textAlign:'center'}} className='animate__animated animate__bounceIn'>
           <Link to={'https://github.com/AlbertGPe/dusty-war'} target='_blank' className='title'>DUSTY WAR</Link>
         </div>
         <div>
@@ -20,7 +20,7 @@ function Projects() {
       </div>
       
       <div className='mt-4 project'>
-        <div style={{textAlign:'center'}}>
+        <div style={{textAlign:'center'}} className='animate__animated animate__bounceIn'>
           <Link to={'https://github.com/music-contact/music-contact'} target='_blank' className='title'>MUSIC CONTACT</Link>
         </div>
         <div>
@@ -32,7 +32,7 @@ function Projects() {
       </div>
       
       <div className='mt-4 project'>
-        <div style={{textAlign:'center'}}>
+        <div style={{textAlign:'center'}} className='animate__animated animate__bounceIn'>
           <Link to={'https://github.com/AlbertGPe/sole-squad'} target='_blank' className='title'>SOLE SQUAD</Link>
         </div>
         <div>

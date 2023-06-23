@@ -10,7 +10,7 @@
 }
 
 .skills {
-  width: 550px;
+  width: 560px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -21,6 +21,7 @@
 
 .skills img {
   width: 80px;
+  height: 90px;
   margin: 20px;
 }
 
